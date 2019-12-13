@@ -7,14 +7,14 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: Lenovo 软路由 LEDE
+name: Lenovo软路由-LEDE
 
 on:
   schedule:
     - cron: 0 20 * * *
-  # push:
-  #   branches: 
-  #     - master
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
